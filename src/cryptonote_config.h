@@ -22,7 +22,7 @@
 //TODO Specify total number of available coins
 //TODO ((uint64_t)(-1)) equals to 18446744073709551616 coins
 //TODO or you can define number explicitly UINT64_C(858986905600000000)
-#define MONEY_SUPPLY                                   
+#define MONEY_SUPPLY                                   100
 #define EMISSION_SPEED_FACTOR                           (18)
 
 //TODO Define number of blocks for block size median calculation
@@ -80,7 +80,7 @@
 #define ALLOW_DEBUG_COMMANDS
 
 //TODO Put here the name of your currency
-#define CRYPTONOTE_NAME                         
+#define CRYPTONOTE_NAME                          "MinisculeCoin"
 #define CRYPTONOTE_BLOCKS_FILENAME              "blocks.dat"
 #define CRYPTONOTE_BLOCKINDEXES_FILENAME        "blockindexes.dat"
 #define CRYPTONOTE_BLOCKSCACHE_FILENAME         "blockscache.dat"
